@@ -1,0 +1,8 @@
+def is_armstrong(n):
+    tong  = 0
+    scs = len(str(n))
+    for num in str(n):
+        tong += int(num) ** scs
+    if tong == n:
+        return True
+    else: return False
